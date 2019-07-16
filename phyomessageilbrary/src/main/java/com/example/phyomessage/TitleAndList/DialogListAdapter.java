@@ -44,7 +44,7 @@ public class DialogListAdapter extends RecyclerView.Adapter {
         TextView itemName;
         public ListItemViewHolder(@NonNull View itemView) {
             super(itemView);
-            itemView = itemView.findViewById(R.id.list_item_name);
+            itemName = itemView.findViewById(R.id.list_item_name);
         }
     }
 }
